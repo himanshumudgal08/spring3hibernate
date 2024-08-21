@@ -11,3 +11,4 @@ COPY --from=builder /usr/src/mymaven/target/Spring3HibernateApp.war /usr/local/t
 WORKDIR /usr/local/tomcat/webapps/
 EXPOSE 8080
 
+
